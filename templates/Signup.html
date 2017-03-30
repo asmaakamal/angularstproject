@@ -1,0 +1,14 @@
+<div></div>
+<form novalidate name="formX" action="" ng-submit="submitted=true; createAcc(formX.$valid)">
+    User Name:
+    <input type="text" name ="nameX" ng-model="user.Name" required>
+    <p ng-if="formX.nameX.$error.required && submitted">Aktb asmk</p>
+    Email:
+    <input type="email" ng-model="user.Mail">
+    <p>{{user.Mail}}</p>
+    Password:
+    <input type="password" name="passX" ng-model="user.Password" required>
+    <p ng-if="formX.passX.$error.required && submitted">Aktb Your Password</p>
+    <button type="submit" ng-click="createAcc()">Submit</button>
+</form>
+

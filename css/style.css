@@ -1,0 +1,23 @@
+body{
+   
+}
+a {
+    text-decoration: none;
+    
+}
+li {
+    display: block;
+    float: left;
+    width: 100px;
+    
+}
+
+#pageX {
+    display: block;
+    background-color: aqua;
+    margin-bottom: 100px;
+}
+ul {
+    background-color: lightgrey;
+    padding-bottom: 3em;
+}

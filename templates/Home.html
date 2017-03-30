@@ -1,0 +1,21 @@
+<!--<a href="#!/signup">{{txt}}</a>-->
+<div style="height=400px"></div>
+<div ng-repeat="product in products">
+    <!--<p>{{product.name}}</p>
+    <img src="{{product.images}}">-->
+    <table>
+      <tr>
+        <th>Product Name</th>
+        <th>Product Image</th>
+        <th>Product Price</th>
+        <th>Product Rate</th>
+      </tr>
+      <tr>
+        <td>{{product.name}}</td>
+        <td><img src="{{product.images}}"></td>
+        <td>{{product.price | currency}}</td>
+        <td star-rating ng-model="product.rate"></td>
+      </tr>
+    </table>
+    <p>Aso</p>
+</div>

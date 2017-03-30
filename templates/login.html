@@ -1,0 +1,10 @@
+<form novalidate name="formZ" action="" ng-submit="submitted=true; compareData(formZ.$valid)">
+    User Name:
+    <input type="text" name="nameZ" ng-model="usr.Name" placeholder="Name" required>
+    <p ng-if="formZ.nameZ.$error.required && submitted">Aktb asmk</p>
+    Password:
+    <input type="password" name="passZ" ng-model="usr.Password" placeholder="Password" required>
+    <p ng-if="formZ.passZ.$error.required && submitted">Aktb Your Password</p>
+    <button type="submit" ng-click="compareData()">LogIn</button>
+</form>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <base href="/Angularlab1/index.html">
+        <script src="JS/angular.min.js"></script>
+        <script src="JS/angular-route.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <script src="JS/myApp.js"></script>
+        <script src="JS/controller.js"></script>
+        <script src="JS/routes.js"></script>
+        <script src="JS/factories.js"></script>
+        <script src="JS/directive.js"></script>        
+    </head>
+<body>
+    <header id="pageX">
+      <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="signup">Sign Up</a></li>
+        <li><a href="login">Log in</a></li>
+      </ul>
+    </header>
+<div ng-view>
+  
+</div>
+
+
+
+</body>
+</html>
+
